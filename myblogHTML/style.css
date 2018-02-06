@@ -1,0 +1,354 @@
+*{
+	box-sizing:border-box;
+}
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: Cormorant !important;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*================MY STYLES==============*/
+/*Green = #2ecc71*/
+
+/* ==================FONTS===================== */
+
+
+@font-face {
+    font-family: Cormorant;
+   src: url(fonts/Cormorant-Bold.ttf); 
+}
+
+/*===========MAIN IMG STYLES==============*/
+#mainImgDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mainImgDiv hr {
+	background: white;
+}
+#mainImgText{
+    position: absolute;
+    max-width: 50%;
+    color: white;
+    font-size: 2vw;
+}
+#imgButton{
+    position: absolute;
+    max-width: 50%;
+    color: white;
+}
+#mainImgText a{
+    border: 2px solid white;
+    margin: 10px;
+    padding: 5px;
+    font-size: 2vw;
+    color: white;
+    text-decoration: none;
+}
+#mainImgText a:hover{
+    color:#2ecc71 ;
+    border: 2px solid #2ecc71;
+}
+#navbarTogglerDemo02:hover{
+    background: #2ecc71;
+}
+
+/*============NAV TOGGLE BUTTON==================*/
+nav{
+    font-size: 1.4vw!important;
+    font-family: 'Dancing Script' !important;
+     font-weight: bold !important;
+}
+
+#togleButton{
+    background:lightgrey ;
+}
+#togleButton:hover{
+    border: 2px solid #2ecc71;
+}
+
+
+/*==============NAV LINKS=================*/
+.navbar-brand{
+    color: white !important;
+    font-size: 1.4vw!important;
+}
+.navbar-brand span {
+    color: #2ecc71;
+    font-size: 1.4vw!important;
+}
+
+.nav-item a {
+    color: white!important;
+}
+.active a{
+     color: #2ecc71 !important;
+ }
+.nav-item :hover {
+    color: #2ecc71!important;
+    border: 2px solid #2ecc71 ;
+    border-radius: 8px;
+}
+/* ================PRE ABOUT ============  */
+#preAbout{
+	margin-top: 50px;
+	background: white;
+	 font-size: 1vw;
+}
+#preAbout h3{
+	 font-size: 1.8vw;
+}
+
+/*================== ABOUT ME =================== */
+#aboutme{
+	margin-top: 50px;
+	background: #d8d8d8;
+}
+
+#aboutImg{
+	margin-right: -15px;
+    margin-left: -15px;
+}
+#aboutText{
+	margin-top: 50px;
+	
+}
+#aboutText span{
+	font-weight: bold;
+	font-size: 2vw;
+	margin-bottom: 50px;
+	padding-bottom:50px;
+}
+#aboutText p{
+	margin-top: 30px;
+	font-size: 1,6vw;
+
+}
+#aboutText h3 {
+	display: inline;
+}
+#aboutText .row{
+	margin-top: 40px;
+}
+
+#aboutText .svg-inline--fa{
+    font-size: 2vw!important;
+    margin-right: 15px;
+}
+
+#aboutText .row p{
+	padding: 15px;
+    margin-top: 5px;
+}
+
+
+/* =========================SKILLS======================  */
+#skils{
+	margin-top: 50px;
+}
+#skils p{
+	margin-bottom: 2rem;
+}
+#skils a{
+	padding: 10px;
+	border: 2px solid #d8d8d8;
+	border-radius: 8px;
+	text-decoration: none;
+	color: black;
+}
+#skils a:hover{
+	border: 2px solid #2ecc71;
+	
+}
+
+
+/* ==========================RESUME ======================== */
+#resume{
+	margin-top: 30px;
+    color: black;
+}
+
+
+#resume h2{
+	padding: 40px;
+}
+
+#resume a{
+	display: inline-flex;
+	padding: 10px;
+	border: 2px solid #2ecc71;
+	border-radius: 8px;
+	text-decoration: none;
+	color: black;
+}
+#resume a:hover{
+	
+	border: 2px solid #3d9970;
+}
+#resume p{
+ margin-bottom: 2rem;
+}
+
+/* ==================EDUCATION ===========================*/
+
+#education {
+margin-top: 40px;
+}
+#education h2{
+    margin-bottom: 20px;
+}
+   
+.grade{
+	display: block;
+	width:12%;
+	margin: auto; 
+	background: #2ecc71;
+	color: white;
+	border-radius: 8px;
+}
+
+/*======================POSTS=================*/
+#posts{
+
+    padding: 50px;
+    background:#d8d8d8 ;
+
+}
+
+/*===================PORTFOLIO=================*/
+
+#portfolio{
+    padding: 50px;
+}
+#portfolio a{
+text-decoration: none;
+    padding: 30px;
+
+}
+
+
+/*====================FOOTER====================*/
+#footer{
+    background:#191f21;
+}
+#footer span{
+display: block;
+    color: #4b5456;
+    margin: 10px;
+}
+#footer a{
+    border: 2px solid  #4b5456;
+    text-decoration: none!important;
+    color:white;
+    padding: 10px;
+    border-radius: 35%;
+}
+
+#footer a:hover{
+    border: 2px solid  white;
+    font-size: 1vw!important;
+
+}
+
+/* =================PARALAX======================== */
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+
+/* =======================PARTICLES SYLE SECTION==================== */
+/* ---- reset ---- */  canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #b61924; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
